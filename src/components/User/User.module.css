@@ -1,0 +1,10 @@
+.user{
+    padding : 15px;
+    border : 2px solid #238523;;
+    min-width: 10vw;
+    width: 18vw;
+
+}
+.menu{
+    list-style: none;
+}

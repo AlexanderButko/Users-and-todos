@@ -1,0 +1,35 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+
+}
+#root{
+    font-family: "Monserrat", sans-serif;
+}
+body{
+    margin: 0 20%;
+
+}
+
+.main_header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.navbar{
+    background-color: #9ee19e;
+    height: 5rem;
+}
+.navbar_items{
+    padding: 1rem 1rem;
+}
+
+
+
+.user_container{
+    display: grid;
+    grid-template-columns: repeat(3, 19rem);
+    grid-gap: 1rem
+}

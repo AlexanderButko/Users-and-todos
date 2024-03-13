@@ -1,0 +1,26 @@
+.pagination{
+    display: flex;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.page{
+    padding: 10px;
+    border: 1px solid #238523;
+    pointer: cursor;
+}
+.page_active{
+    padding: 10px;
+    border: 2px solid orange;
+    pointer: cursor;
+    font-weight: bold;
+}
+
+.page+.page, .page_active+.page{
+    margin-left: 2px;
+}
+.page+.page_active{
+    margin-right: 2px;
+}

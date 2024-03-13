@@ -1,0 +1,17 @@
+.todo_completed, .todo_uncompleted{
+    display: flex;
+    justify-content: space-between;
+    padding : 15px;
+    margin-bottom: 0.3rem;
+}
+.todo_completed{
+    border : 3px solid green;
+}
+.todo_uncompleted{
+    border : 3px solid red;
+}
+.todo_uncompleted_select{
+    display: flex;
+
+    margin-left: 1rem;
+}
